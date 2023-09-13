@@ -1,0 +1,40 @@
+
+body{
+    font-family: 'Gill Sans',  sans-serif;
+    background: url('../../assets/images/WhatsApp\ Image\ 2022-12-25\ at\ 23.06.55.jpg');
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.card{
+    width: 250px;
+    height: 330px;
+    border: 1px solid gray;
+}
+
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-btn{
+    background-color: aqua;
+    color: black;
+}
+.home-container{
+    display: flex;
+}
+
+.card-container{
+    width: 600px;
+    display: flex;
+   flex-wrap: wrap;
+    gap:15px;
+}
