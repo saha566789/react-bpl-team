@@ -1,4 +1,6 @@
-import { useEffect, useState } from 'react';
+
+
+    selectActimport { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import './Home.css'
 import Swal from 'sweetalert2/dist/sweetalert2.js'
@@ -22,9 +24,7 @@ const Home = () => {
    if(isExist){
    return alert("already booked")
    }
-   else{
-
-    selectActors.forEach((item) =>{
+   else{ors.forEach((item) =>{
         count = count + item.salary;
     });
    const totalRaemining = 20000 - count;
